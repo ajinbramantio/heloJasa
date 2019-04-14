@@ -97,7 +97,14 @@ const controller = {
   getUserById: async (req, res) => {
     try {
       const foundCustomer = await knex
-        .select()
+        .select(
+          'id_customer',
+          'user_name',
+          'full_name',
+          'email',
+          'mobile_phone',
+          'is_actived'
+        )
         .from('customers')
         .where({ id_customer: req.params.id })
 
