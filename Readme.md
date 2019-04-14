@@ -27,9 +27,9 @@ yarn start
 
 ## Customers
 
-| Endpoint             | Method | Description           | isAuthenticated |
-| -------------------- | ------ | --------------------- | --------------- |
-| `/`                  | GET    | Hello jasa            |                 |
-| `/customet/register` | POST   | Register new customer |                 |
-| `/users/login`       | POST   | Login to customer     |                 |
-| `/users/profile/:id` | GET    | Get profile customer  | YES             |
+| Endpoint                | Method | Description           | isAuthenticated |
+| ----------------------- | ------ | --------------------- | --------------- |
+| `/`                     | GET    | Hello jasa            |                 |
+| `/customer/register`    | POST   | Register new customer |                 |
+| `/customer/login`       | POST   | Login to customer     |                 |
+| `/customer/profile/:id` | GET    | Get profile customer  | YES             |
