@@ -1,0 +1,1 @@
+SELECT * FROM hello_jasa.customers;
