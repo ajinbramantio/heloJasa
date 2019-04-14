@@ -3,7 +3,7 @@ const path = require('path')
 const favicon = require('serve-favicon')
 const logger = require('morgan')
 const cookieParser = require('cookie-parser')
-const bodyParser = require('body-Parser')
+const bodyParser = require('body-parser')
 const cors = require('cors')
 
 const index = require('./middlewares')
