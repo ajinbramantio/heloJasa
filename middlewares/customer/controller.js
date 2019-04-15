@@ -16,7 +16,7 @@ const controller = {
     getCustomer = await knex.select().from('customers')
 
     res.status(200).send({
-      message: 'need auth to get customer'
+      message: 'need auth, if you want get customer'
     })
   },
 
