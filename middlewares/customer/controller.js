@@ -129,4 +129,5 @@ const controller = {
   }
 }
 
+// Ini ngekspor
 module.exports = controller
