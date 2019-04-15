@@ -111,7 +111,7 @@ const controller = {
       const token = req.headers.authorization.split(' ')[1]
       const decoded = await jwt.verify(token, process.env.SECRET)
 
-      if (true) {
+      if (decoded.customer.id_customer === Number(req.params.id)) {
         res.status(200).send({
           message: 'get customer by Id',
           dataCustomerById: foundCustomer
@@ -129,5 +129,4 @@ const controller = {
   }
 }
 
-// Ini ngekspor
 module.exports = controller

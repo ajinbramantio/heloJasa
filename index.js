@@ -84,7 +84,7 @@ function onListening() {
   debug('Listening on ' + bind)
 
   console.info(`
-- https://github.com/trivjoy/trivjoy-backend
+- https://github.com/heloJasa
 - REST API is listening on ${host}:${port}
 - Database is on ${database}
 `)
